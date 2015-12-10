@@ -22,7 +22,7 @@ A future version of this plugin is planned to add the tracking code as an additi
 
 Once configured, the Google Analytics tracking code will be injected into your index.html file. A mixin is provided for simple page view tracking inside of your Ember application. To use it, include it inside your `app/router.js` file:
 
-```
+```javascript
 import Ember from 'ember';
 import config from './config/environment';
 import googlePageview from './mixins/google-pageview';
